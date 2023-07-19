@@ -3,7 +3,7 @@ import { quotes } from "../assets";
 import React from 'react';
 
 import {ethers} from "ethers"
-import yuuAuctionABI from "../contracts/YuuAuctionABI.json"
+import yuuAuctionABI from "../contracts/AdAuctionABI.json"
 import Modal from 'react-modal';
 
 //CONTRACT ADDRESS - 0xDd7958f9c91368f042CB347fBa82053A3f33E787

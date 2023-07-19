@@ -4,7 +4,7 @@ import React from 'react';
 
 import {Web3}  from "web3";
 import {ethers} from "ethers"
-import yuuAuctionABI from "../contracts/YuuAuctionABI.json"
+import yuuAuctionABI from "../contracts/AdAuctionABI.json"
 
 import { solidityCompiler, getCompilerVersions } from "@agnostico/browser-solidity-compiler";
 import Modal from 'react-modal';

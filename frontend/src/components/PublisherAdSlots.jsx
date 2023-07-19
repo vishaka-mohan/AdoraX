@@ -6,7 +6,7 @@ import {  Business, Billing, CardDeal, Testimonials, Footer, Navbar,  Hero, Adve
 import {people01, people02, people03, verge} from "../assets"
 
 import {ethers} from "ethers"
-import yuuAuctionABI from "../contracts/YuuAuctionABI.json"
+import yuuAuctionABI from "../contracts/AdAuctionABI.json"
 import Modal from 'react-modal';
 import axios from 'axios'
 import { Web3Storage } from 'web3.storage'

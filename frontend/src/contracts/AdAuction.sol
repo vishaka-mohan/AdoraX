@@ -4,7 +4,7 @@ pragma solidity ^0.8.13;
 
 
 
-contract YuuAuction {
+contract AdAuction {
     event StartAuction(string hash);
     event BidAdSlot(address indexed sender, uint amount);
     event Withdraw(address indexed bidder, uint amount);

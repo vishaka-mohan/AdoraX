@@ -4,7 +4,7 @@ import AdSlotCard from './AdSlotCard';
 import styles from "../style";
 import { Web3Storage } from 'web3.storage'
 import {ethers} from "ethers"
-import yuuAuctionABI from "../contracts/YuuAuctionABI.json"
+import yuuAuctionABI from "../contracts/AdAuctionABI.json"
 
 export default function Marketplace() {
 
