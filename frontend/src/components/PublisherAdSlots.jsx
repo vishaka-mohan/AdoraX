@@ -211,7 +211,7 @@ function PublisherSlots () {
           blockExplorerUrls: ["https://explorer.testnet.mantle.xyz/"],
       }
   
-  var addGnosisToMetamask = function() {
+  var addMantleToMetamask = function() {
       window.ethereum.request({
           method: "wallet_addEthereumChain",
           params: [MANTLE_TESTNET_PARAMS],
@@ -239,7 +239,7 @@ function PublisherSlots () {
 
 
 
-      addGnosisToMetamask()
+      addMantleToMetamask()
 
 
     

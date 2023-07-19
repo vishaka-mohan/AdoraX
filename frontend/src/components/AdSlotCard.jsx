@@ -69,7 +69,7 @@ const AdSlotCard = ({ name, tags, location, ht, startDate, startTime, width, end
     blockExplorerUrls: ["https://explorer.testnet.mantle.xyz/"],
 }
 
-var addGnosisToMetamask = function() {
+var addMantleToMetamask = function() {
     window.ethereum.request({
         method: "wallet_addEthereumChain",
         params: [MANTLE_TESTNET_PARAMS],
@@ -84,7 +84,7 @@ var addGnosisToMetamask = function() {
 
 useEffect(() => {
   // Update the document title using the browser API
-  addGnosisToMetamask();
+  addMantleToMetamask();
 });
     
 
@@ -133,6 +133,7 @@ useEffect(() => {
     console.log(currentBid)
     //console.log(ethers.utils.parseUnits(currentBid, 'wei'))
     var a = await contract.bid(ipfsHash, {value: ethers.utils.parseEther(currentBid)})
+    //var a = await contract.start(ipfsHash, ethers.utils.parseEther(currentBid))
 
     console.log(a)
 
